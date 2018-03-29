@@ -1,0 +1,31 @@
+{
+  "name": "andelagrand",
+  "version": "1.0.0",
+  "description": "A node app",
+  "main": "index.js",
+  "scripts": {
+    "start": "index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agavitalis/andelagrandchallenge.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Ogbonna Vitalis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agavitalis/andelagrandchallenge/issues"
+  },
+  "homepage": "https://github.com/agavitalis/andelagrandchallenge#readme",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "ejs": "^2.5.8",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.12",
+    "morgan": "^1.9.0",
+    "newsapi": "^2.2.2"
+  }
+}

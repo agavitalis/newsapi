@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+        Andela App
+    </title>
+</head>
+<body>
+
+ <table>
+    <% for(var i=0; i < data.length; i++) { %>
+    <tr>
+    <td><%= data[i].status %></td>
+    <td><%= data[i].totalResults %></td>
+    <td><% for(var j=0; j < data[i].articles.length; j++) { %>
+        <p><%=data[i].articles[j].source.id%></p>
+        <p><%=data[i].articles[j].source.name%></p>
+        <p><%=data[i].articles[j].author%></p>
+        <p><%=data[i].articles[j].title%></p>
+        <p><%=data[i].articles[j].description%></p>
+        <p><%=data[i].articles[j].publishedAt%></p>
+        <p><a href="<%=data[i].articles[j].url%>">Read More</a></p>
+        <img src="<%=data[i].articles[j].urlToImage%>" alt="" srcset="">
+        
+    <% } %></td>
+    </tr>
+    <% } %>
+</table>
+
+
+
+</body>
+</html>
