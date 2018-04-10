@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>NewsApp</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="keywords" content="PWA" />
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+	<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="manifest.json" rel="manifest" />
+	<!-- <link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet"> -->
+</head>
+
+<body>
+	<!-- Banner-->
+	<div class="vita_banner">
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+					    aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<h1>
+						<a class="navbar-brand" href="#">NewsOnline</a>
+					</h1>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="#">Home</a>
+						</li>
+						<li>
+							<a href="#contact" class="page-scroll">About</a>
+						</li>
+					</ul>
+				</div>
+				<!-- /.navbar-collapse -->
+			</div>
+			<!-- /.container -->
+		</nav>
+		<div class="vita_bannerinfo">
+			<h2>Stay updated with the latest happenings</h2>
+			<p>NewsOnlines get you covered..all round the globe </p>
+			<!-- Search-->
+			<div class="vita_banser">
+				<div id="search_form" class="search_top">
+					<p>set your prefernce here! </p>
+					<form action="#" method="post">
+						<!-- <div class="vita_sel">
+							<select id="country12" onchange="change_country(this.value)" class="frm-field required">
+								<option value="null"> Select Country</option>
+								<option value="city">AFF</option>
+								<option value="city">Focal Paint</option>
+								<option value="city">Room</option>
+								<option value="city">House</option>
+							</select>
+						</div> -->
+						<div class="vita_sel">
+							<select name="source" id="sources"></select>
+						</div>
+						<input type="submit" value="FIND NEWS">
+						<div class="clearfix"></div>
+					</form>
+				</div>
+			</div>
+			<!--/Search-->
+		</div>
+	</div>
+	<!-- /Banner-->
+
+
+
+
+
+
+	<!-- Blog-->
+	<div class="blog" id="blog">
+		<div class="container">
+			<h3>Latest Updates</h3>
+			<div class="row vita-container">
+			
+				<!-- <div class="grid col col-md-12">
+					
+					<div class="col-md-6 col-sm-6 vita_br">
+						<img src="images/blog.jpg" class="img-responsive" alt="Image">
+					</div>
+					<div class="col-md-6 col-sm-6 vita_bm">
+						<h4>Tips for People To Make Better Interior Designs</h4>
+						<h6><i>gfhhjgjgjgjgjhgjhghjgjhgjhgjgj</i></h6>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+						<button class=" btn btn-info btn-flat"><a href="#">Read More </a></button>
+						
+					</div>
+					<div class="clearfix"></div>
+
+				</div>
+
+				<div class=" grid col col-md-12">
+					
+					<div class="col-md-6 col-sm-6 vita_br">
+						<img src="images/blog.jpg" class="img-responsive" alt="Image">
+					</div>
+					<div class="col-md-6 col-sm-6 vita_bm">
+						<h4>Tips for People To Make Better Interior Designs</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+						<button class=" btn btn-info btn-flat"><a href="#">Read More </a></button>
+						
+					</div>
+					<div class="clearfix"></div>
+
+				</div> -->
+
+			</div>
+			
+		</div>
+	</div>
+	<!--/Blog-->
+
+	<!-- Contact-->
+	<!-- /contact -->
+	<div class="contact" id="contact">
+		<div class="container">
+
+			<div class="inner-vita">
+				<h3>About</h3>
+			</div>
+			<div class="vita_agile_grids_top">
+				<div class="test-grid5">
+					<!-- <img src="images/t2.jpg" alt="" class="img-responsive"> -->
+				</div>
+				<div class="vita_cc">
+					<p>Name:Ogbonna Vitalis</p>
+					<p>TEL:+234 8163922749</p>
+					<p>
+						<a href="mailto:agavitalisogbonna@gmail.com">info@agavitalisogbonna</a>
+					</p>
+
+				</div>
+			</div>
+		</div>
+		<!-- //contact -->
+
+		<div class="copyright">
+			<div class="container">
+				<p>Design by
+					<a href="">Vitalis</a>
+				</p>
+			</div>
+		</div>
+
+		<script src="js/jquery.min.js"></script>
+	
+		<script src="js/bootstrap.min.js"></script>
+		
+		<script src="js/SmoothScroll.min.js"></script>
+		<script type="text/javascript" src="js/move-top.js"></script>
+	
+		<script type="text/javascript">
+			jQuery(document).ready(function ($) {
+				$(".scroll").click(function (event) {
+					event.preventDefault();
+					$('html,body').animate({
+						scrollTop: $(this.hash).offset().top
+					}, 1000);
+				});
+			});
+		</script>
+		
+
+		<script src="app.js"></script>
+</body>
+
+</html>

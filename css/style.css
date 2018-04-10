@@ -1,0 +1,990 @@
+
+
+/*-- Reset-Code --*/
+
+body {
+	padding: 0;
+	margin: 0;
+	background: #FFF;
+	font-family: 'Open Sans', sans-serif;
+}
+body a {
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	text-decoration: none;
+}
+body a:hover {
+	text-decoration: none;
+}
+body a:focus, a:hover {
+	text-decoration: none;
+}
+input[type="button"], input[type="submit"] {
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+font-family: 'Roboto Condensed', sans-serif;
+		font-weight:600;
+		letter-spacing:2px;
+		
+}
+p {
+	margin: 0;
+	color:#777;
+	letter-spacing:1px;
+	line-height:1.8em;
+	font-size:15px;
+	font-weight:400;
+	text-align: justify;
+}
+.row{
+	margin:0px;
+	padding:0px;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+label {
+	margin: 0;
+}
+a:focus, a:hover {
+	text-decoration: none;
+	outline: none;
+}
+/*-- //Reset-Code --*/
+
+/** Header**/
+.navbar-default {
+    background-color:transparent;
+    border-color:transparent;
+	padding: 2em;
+}
+.vita_bannerinfo {
+    text-align: center;
+    margin-top: 200px;
+}
+.vita_bannerinfo p {
+    width: 35%;
+    margin: 0 auto;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 15px;
+    line-height: 1.8em;
+	text-align: center;
+}
+input[type="submit"] {
+    background-color: #d2691e;
+    color: #fff;
+    padding: 8px 10px;
+    border: 1px solid #fff;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.vita_banner {
+	background:url(../images/baner.jpg) 0px 0px  no-repeat;
+	background-size:cover;
+	min-height:800px;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.navbar-default .navbar-brand:hover {
+    color: #fff;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #ff0000;
+}
+.form-control:focus {
+    border-color:transparent;
+    outline: 0;
+    -webkit-box-shadow: inset 0 0px 1px rgba(0,0,0,.075), 0 0 0px rgba(102,175,233,.6);
+    box-shadow: inset 0 0px 0px rgba(0,0,0,.075), 0 0 0px rgba(102,175,233,.6);
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #fff;
+    background-color: transparent;
+    background-image: none;
+    border-bottom: 1px solid #fff;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,.075);
+    box-shadow: inset 0 0px 0px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.vita_banser {
+    margin-top: 50px;
+}
+.vita_banser input.text {
+    color: #fff;
+    font-size: 15px;
+    background-color: transparent;
+    width: 15%;
+    box-sizing: border-box;
+	border:1px solid #fff;
+    font-weight: 600;
+    padding: 9px;
+	letter-spacing:2px;
+	outline:none;
+}
+.vita_banser input#datepicker {
+    background-color: transparent;
+    width: 15%;
+    padding: 9px;
+	border:0px;
+	font-size:15px;
+	font-weight:600;
+	letter-spacing:2px;
+	color:#fff;
+	outline:none;
+}
+h2 {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+select#sources {
+	color: #fff;
+    font-size: 15px;
+    background-color: transparent;
+    width: 15%;
+    box-sizing: border-box;
+	border:1px solid #fff;
+    font-weight: 600;
+    padding: 8.4px;
+	letter-spacing:2px;
+	outline:none;
+}
+option {
+    background-color: #000;
+}
+.vita_sel {
+    display: inline;
+    margin-left: 4px;
+}
+i.fa.fa-calendar {
+    color: #fff;
+	cursor:pointer;
+}
+.vita_date {
+    display: inline;
+    border: 1px solid #fff;
+    padding: 10px;
+}
+::-webkit-input-placeholder {
+color:#fff !important;
+}
+:-moz-placeholder { /* Firefox 18- */
+color:#fff !important;
+}
+::-moz-placeholder {  /* Firefox 19+ */
+color:#fff !important;
+}
+:-ms-input-placeholder {  
+color:#fff !important;
+}
+
+/** /Header**/
+
+
+
+
+
+/** Blog**/
+.vita_pos i.fa.fa-calendar {
+    color: #fff;
+}
+.vita_bl {
+    padding: 4em;
+    border: 1px solid #777;
+    border-right: 0px;
+	margin-top:50px;
+}
+.grid{
+    text-align: center;
+    background: #e0e0e0;
+    background: #ffc107;
+    background: #fff;
+    padding: 25px 40px;
+    -webkit-box-shadow: 0 0 40px #aaa;
+    -moz-box-shadow: 0 0 40px #aaa;
+    box-shadow: 0 0 40px #aaa;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -webkit-box-shadow: 0px 1px 8px 0px rgba(158, 158, 158, 0.75);
+    -moz-box-shadow: 0px 1px 8px 0px rgba(158, 158, 158, 0.75);
+    box-shadow: 0px 1px 8px 0px rgba(158, 158, 158, 0.75);
+    margin-bottom: 3em;
+}
+.vita_bm {
+    padding: 1em;
+    border: 1px solid #777;
+	border-left:0px;
+}
+.vita-container{
+    margin-bottom: 2em;
+}
+.vita_br {
+    padding: 0;
+    margin-top: 2px;
+}
+.vita_br img{
+    border-radius: 10px;
+    max-width: 300px;
+    max-height: 300px;
+    margin: auto;
+    padding-top:2em;
+
+}
+.wthree_rm2 a {
+	 font-size: 15px;
+    color: #fff;
+    letter-spacing: 2px;
+    border: 2px solid #fff;
+    padding: 15px 18px;
+    background-color: #ff0000;
+    font-weight: 600; 
+}
+.vita_pos {
+    position: absolute;
+    top: 20%;
+    left: 47%;
+    text-align: center;
+    border: 1px solid #000;
+    padding: 1em;
+    color: #fff;
+}
+.vita_pos1 {
+    position: absolute;
+    top: 50%;
+    left: 46%;
+    text-align: center;
+    border: 1px solid #000;
+    padding: 1em;
+    background-color: #000;
+    color: #fff;
+}
+.vita_pos2 {
+    position: absolute;
+    top: 78%;
+    left: 47%;
+    text-align: center;
+    border: 1px solid #000;
+    padding: 1em;
+    background-color: #000;
+    color: #fff;
+}
+.blog {
+    position: relative;
+    padding: 5em 0em;
+}
+.vita_pos h4 {
+    color: #fff;
+    margin: 5px 0px;
+}
+.vita_pos h3 {
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.vita_bl p {
+	margin: 30px 0px;
+	color: #777;
+    letter-spacing: 2px;
+    font-size: 15px;
+    line-height: 1.8em;
+}
+.vita_bm p {
+    margin: 30px 0px;
+    color: #777;
+    letter-spacing: 2px;
+    font-size: 15px;
+    line-height: 1.8em;
+}
+.blog h3 {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #000;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.vita_bl h4 {
+	 color: #000;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.vita_bm h4 {
+    color: #000;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+/** /Blog**/
+/*--/contact --*/
+.contact-form-aits input[type="text"],.contact-form-aits input[type="email"],.contact-form-aits textarea {
+	width: 49%;
+	float: left;
+	padding: 1em;
+	margin-bottom: 20px;
+	color: #fff;
+	border: 2px solid #fff;
+	font-weight: 600;
+	outline: none;
+	letter-spacing:1px;
+	background:transparent;
+}
+.contact h3 {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+input.margin-right {
+	margin-right: 18px;
+}
+.test-grid5 img {
+    border-radius:50%;
+	    margin: 0 auto;
+}
+.vita_cc p {
+    color: #fff;
+    margin: 10px 0px;
+}
+.vita_cc a {
+    color: #fff;
+}
+.contact-form-aits textarea {
+	width: 100%;
+	height: 150px;
+	margin-bottom: 30px;
+	    resize: none;
+}
+.vita_cc p {
+    text-align: center;
+}
+
+.vita_cc {
+    text-align: center;
+}
+.contact {
+    padding-bottom: 0px;
+    padding-top: 5em;
+    padding-left: 0px;
+    padding-right: 0px;
+	background:url(../images/contact.jpg) 0px 0px  no-repeat;
+	background-size:cover;
+}
+.send-button button.btn {
+	font-weight: 600;
+	color: #EEE;
+	padding:12px 30px;
+	border: none;
+	outline: none;
+    background: #3bc391;
+	border-radius: 0;
+}
+
+.send-button button.btn:hover {
+	color: #FFF;
+	background: #010910;
+}
+
+.send-button button.btn .glyphicon {
+	margin-left: 10px;
+}
+
+.contact-form-aits ::-webkit-input-placeholder {
+	color: #555;
+}
+
+.contact-form-aits ::-moz-placeholder {
+	color: #555;
+}
+
+.contact-form-aits ::-moz-placeholder {
+	color: #555;
+}
+
+.contact-form-aits ::-ms-input-placeholder {
+	color: #555;
+}
+
+.send-button.agileits.vitaayouts {
+	text-align: center;
+}
+.contact-form-aits {
+       padding: 50px;
+}
+
+/*--//contact --*/
+iframe {
+    width: 100%;
+    height: 300px;
+}
+/*-- Footer*/
+.copyright p {
+    text-align: center;
+	color: #fff;
+	padding: 10px 0px;
+}
+.copyright {
+    background-color: #000;
+    
+}
+/*-- /Footer**/
+
+ /*--top hover--*/
+#toTop {
+    display: none;
+    text-decoration: none;
+    position: fixed;
+    bottom: 20px;
+    right: 2%;
+    overflow: hidden;
+    z-index: 999;
+    width: 32px;
+    height: 32px;
+    border: none;
+    text-indent: 100%;
+    background: url(../images/arrow.png) no-repeat 0px 0px;
+}
+#toTopHover {
+    width: 32px;
+    height: 32px;
+    display: block;
+    overflow: hidden;
+    float: right;
+    opacity: 0;
+    -moz-opacity: 0;
+    filter: alpha(opacity=0);
+}
+/*--/tophover--*/
+
+/** Responsive**/
+@media screen and (max-width: 1366px){
+.vita_pos2 {
+    left: 46%;
+}
+.vita_pos {
+   left: 7%;
+   z-index: 1000;
+   top: 24%;
+}
+.vita_pos1 {
+    left: 45%;
+}
+}
+@media screen and (max-width: 1024px) {
+ 
+    .vita_pos {
+        left: 4%;
+        top: 26%;
+    }
+  
+}
+@media screen and (max-width: 768px) {
+    
+    .vita_pos {
+        left: 3%;
+        top: 29%;
+    }
+   
+}
+@media screen and (max-width: 1080px){
+	select#sources {
+    width: 20%;
+}
+.wthree_abttop {
+    width: 100%;
+}
+.wthree_abtdwnl {
+    width: 100%;
+}
+.view {
+    width: 225px;
+    height: 152px;
+}
+.view .mask, .view .content {
+    left: -25px;
+}
+.team-grids {
+    width: 50%;
+    margin-bottom: 10px;
+}
+.view-caption {
+    height: 12%;
+}
+.vita_bl {
+    padding: 2em;
+}
+.vita_bm {
+    padding: 2em;
+}
+.contact-form-aits input[type="text"], .contact-form-aits input[type="email"] {
+    width: 48%;
+}
+.contact-form-aits textarea {
+    width: 98%;
+}
+}
+@media screen and (max-width: 991px){
+	.nav>li>a {
+    padding: 10px 8px;
+}
+.img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.vita_bannerinfo p {
+    width: 50%;
+}
+.view {
+    width: 350px;
+    height: 220px;
+}
+.view .mask{
+    width: 370px;
+}
+.team-grids {
+    float: left;
+}
+.view-caption {
+    height: 20%;
+}
+.test-grid5 img {
+    width: 15%;
+}
+.contact-form-aits textarea {
+    width: 99%;
+}
+.vita_bl p {
+    margin: 18px 0px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    text-align: center;
+}
+.vita_bl h4 {
+    font-size: 19px;
+}
+.vita_bl {
+    padding: 1em;
+}
+.vita_bm {
+    padding: 1em;
+}
+.vita_bm h4 {
+    font-size: 19px;
+}
+.vita_bm p {
+    margin: 18px 0px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    text-align: justify;
+}
+} 
+@media screen and (max-width: 800px){
+.vita_banser input.text {
+    width: 20%;
+}
+.vita_banser input#datepicker {
+    width: 17%;
+}
+select#sources {
+    width: 25%;
+}
+}
+@media screen and (max-width: 768px){
+.about {
+    padding: 3em 0em;
+}
+.testimonials {
+    padding: 3em 0em;
+}
+.gallery {
+    padding: 3em 0em;
+}
+.team {
+    padding: 3em 0em;
+}
+.blog {
+    padding: 3em 0em;
+}
+.contact {
+    padding: 3em 0em;
+}
+} 
+@media screen and (max-width: 767px){
+div#bs-example-navbar-collapse-1 {
+    position: absolute;
+    width: 90%;
+    z-index: 999;
+}
+ul.nav.navbar-nav.navbar-right {
+    text-align: center;
+	color: #fff;
+    font-size: 15px;
+    letter-spacing: 2px;
+    background: #000;
+}
+.navbar-default .navbar-toggle {
+    border-color: #fff;
+    background-color:#ff0000;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.vita_pos {
+    top: 11%;
+}
+.vita_pos1 {
+    top: 57.2%;
+}
+.vita_pos2 {
+    top: 73%;
+}
+}
+@media screen and (max-width: 667px){
+.vita_pos1 {
+    top: 56%;
+}
+.vita_pos {
+    top: 12%;
+}
+.vita_banner {
+    min-height: 575px;
+}
+h2 {
+    font-size: 33px;
+}
+.vita_bannerinfo {
+    margin-top: 100px;
+}
+.vita_banser input#datepicker {
+    width: 20%;
+}
+select#sources {
+    width: 30%;
+}
+.vita_bannerinfo p {
+    width: 75%;
+}
+.view {
+    width: 308px;
+    height: 183px;
+}
+.vita_pos {
+    top: 11%;
+}
+.vita_bm {
+    margin-top: 25px;
+}
+.vita_pos2 {
+    top: 74%;
+}
+.vita_pos2 {
+    left: 45%;
+}
+.contact-form-aits textarea {
+    width: 100%;
+}
+.contact-form-aits {
+    padding: 25px;
+}
+} 
+@media screen and (max-width: 640px){
+.view {
+    width: 48%;
+    float: left;
+	height: 197px;
+}
+h2 {
+    font-size: 31px;
+}
+}
+@media screen and (max-width: 600px){
+.vita_pos1 {
+    top: 55%;
+}
+h2 {
+    font-size: 30px;
+}
+.vita_banser input#datepicker {
+    width: 21%;
+}
+.vita_banser input.text {
+    width: 25%;
+}
+.vita_pos {
+    top: 12%;
+}
+} 
+@media screen and (max-width: 568px){
+.view {
+    height: 170px;
+}
+.view .mask, .view .content {
+    left: -50px;
+}
+h2 {
+    letter-spacing: 1px;
+}
+} 
+@media screen and (max-width: 480px){
+	.view {
+    width: 47%;
+    height: 142px;
+}
+.vita_banser input.text {
+    width: 19%;
+}
+h2 {
+    font-size: 25px;
+}
+.vita_banser {
+    margin-top: 70px;
+}
+.wthree_abttop {
+    padding: 4em 7em 4em 5em;
+}
+.wthree_abtdwnl {
+    padding: 6em;
+}
+.view .mask, .view .content {
+    left: -80px;
+}
+.vita_bannerinfo p {
+    width: 100%;
+    font-size: 13px;
+}
+.team-grids {
+    float: none;
+    width: 75%;
+    margin: 10px auto;
+}
+.vita_pos {
+    top: 19%;
+    left: 4%;
+}
+.vita_pos1 {
+    top: 52%;
+    left: 35%;
+}
+.vita_pos2 {
+    left: 35%;
+    top: 77%;
+}
+.contact-form-aits input[type="text"], .contact-form-aits input[type="email"] {
+    width: 100%;
+}
+.vita_banser {
+    margin-top: 90px;
+}
+}
+@media screen and (max-width: 414px){
+.vita_pos2 {
+    left: 40%;
+    top: 78%;
+}
+.vita_pos1 {
+    top: 50.5%;
+}
+.vita_pos {
+    top: 16%;
+    left: 39%;
+}
+.vita_banser input.text {
+    width: 80%;
+	margin-bottom: 10px;
+	padding-left: 50px;
+}
+.vita_banser input#datepicker {
+    width: 71%;
+}
+.vita_sel {
+    display: block;
+}
+select#sources {
+    width: 80%;
+	padding-left: 50px;
+}
+.vita_banser {
+    margin-top: 50px;
+}
+input[type="submit"] {
+    margin-top: 15px;
+	padding: 8px 25px;
+}
+.vita_date {
+    display: block;
+    padding: 0px;
+     width: 80%;
+    margin: 0 auto;
+}
+.vita_sel {
+    margin-top: 10px;
+}
+.vita_bannerinfo {
+    margin-top: 60px;
+}
+.view {
+    width: 100%;
+    height: auto;
+}
+.view .mask, .view .content {
+    left: 0;
+    height: 300px;
+}
+.view h4 {
+    top: 25px;
+}
+.wthree_abttop h4 {
+    font-size: 20px;
+}
+.vita_test h4 {
+    font-size: 22px;
+}
+} 
+@media screen and (max-width: 384px){
+.vita_pos1 {
+    top: 50%;
+}
+.vita_pos {
+    top: 20.5%;
+    left: 4%;
+}
+.agileinfo p {
+    font-size: 13px;
+    text-align: center;
+}
+.agileinfo {
+    padding: 0em;
+}
+.vita_test {
+    padding: 1em;
+	margin-top: 20px;
+}
+p.para-vita-agile {
+    margin: 15px 0px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    line-height: 1.5em;
+    text-align: center;
+}
+h2 {
+    font-size: 24px;
+}
+}
+@media screen and (max-width: 375px){
+.wthree_abtdwnl {
+    padding: 3em;
+}
+.wthree_abttop h4 {
+    font-size: 17px;
+}
+.wthree_abttop {
+    padding: 3em;
+}
+.wthree_abttop p {
+    text-align:left;
+}
+h2 {
+    font-size: 28px;
+}
+} 
+@media screen and (max-width: 320px){
+.contact-form-aits textarea {
+    height: 100px;
+}
+.navbar-default {
+    padding: 1em;
+}
+.navbar-default .navbar-brand {
+    padding-left: 0;
+}
+.navbar-toggle {
+    margin-right: 0px;
+}
+.vita_bannerinfo p {
+    letter-spacing: 1px;
+    line-height: 1.5em;
+}
+.wthree_abttop h4 {
+    font-size: 20px;
+}
+.wthree_abttop p {
+    letter-spacing: 1px;
+    font-size: 14px;
+    line-height: 1.5em;
+}
+.wthree_abtdwnl p {
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.5em;
+    text-align: center;
+}
+.view .mask, .view .content {
+    left: -50px;
+}
+.team-grids {
+    float: none;
+    width: 100%;
+}
+.vita_bl h4 {
+    font-size: 16px;
+}
+.vita_pos {
+    top: 19%;
+    left: 40%;
+}
+.vita_pos {
+    top: 21.5%;
+    left: 32%;
+}
+.vita_pos1 {
+    top: 47.5%;
+}
+.vita_pos2 {
+    left: 32%;
+    top: 82.5%;
+}
+}  
+/** /Responsive**/
